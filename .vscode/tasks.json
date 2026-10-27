@@ -1,0 +1,28 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Start CAMS Full Stack (Backend + Frontend)",
+      "type": "shell",
+      "command": "${workspaceFolder}/start.bat",
+      "problemMatcher": [],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      }
+    },
+    {
+      "label": "Stop CAMS Full Stack",
+      "type": "shell",
+      "command": "${workspaceFolder}/stop.bat",
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always"
+      }
+    }
+  ]
+}
